@@ -17,12 +17,12 @@ export default class MainPage extends Component {
         ],
 
         service: [
-            {id: 1, title: 'Internet Paketlar', icon: <AntDesign name="earth" size={30} color="#ffffff" />, backColor: '#01B4FF'},
-            {id: 2, title: 'Internet Paketlar', icon: <MaterialCommunityIcons name="currency-sign" size={30} color="#ffffff" />, backColor: '#01B4FF'},
-            {id: 3, title: 'Internet Paketlar', icon: <Feather name="credit-card" size={30} color="#ffffff" />, backColor: '#01B4FF'},
-            {id: 4, title: 'Internet Paketlar', icon: <MaterialCommunityIcons name="router-network" size={30} color="#ffffff" />, backColor: '#01B4FF'},
-            {id: 5, title: 'Internet Paketlar', icon: <Ionicons name="chatbubble-outline" size={30} color="#ffffff" />, backColor: '#01B4FF'},
-            {id: 6, title: 'Internet Paketlar', icon: <Feather name="clock" size={30} color="#ffffff" />, backColor: '#01B4FF'},
+            {id: 1, title: 'ИНТЕРНЕТ ПАКЕТЫ', icon: <AntDesign name="earth" size={30} color="#ffffff" />, backColor: '#01B4FF', navigatePage: 'internet-packages'},
+            {id: 2, title: 'КОДЫ USSD', icon: <MaterialCommunityIcons name="currency-sign" size={30} color="#ffffff" />, backColor: '#01B4FF', navigatePage: 'internet-packages'},
+            {id: 3, title: 'ТАРИФНЫЕ ПЛАНЫ', icon: <Feather name="credit-card" size={30} color="#ffffff" />, backColor: '#01B4FF', navigatePage: 'internet-packages'},
+            {id: 4, title: 'УСЛУГИ', icon: <MaterialCommunityIcons name="router-network" size={30} color="#ffffff" />, backColor: '#01B4FF', navigatePage: 'internet-packages'},
+            {id: 5, title: 'СМС ПАКЕТЫ', icon: <Ionicons name="chatbubble-outline" size={30} color="#ffffff" />, backColor: '#01B4FF', navigatePage: 'internet-packages'},
+            {id: 6, title: 'МИНУТ', icon: <Feather name="clock" size={30} color="#ffffff" />, backColor: '#01B4FF', navigatePage: 'internet-packages'},
         ],
 
         backColor: '#01B4FF'

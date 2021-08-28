@@ -20,7 +20,7 @@ export const styles = StyleSheet.create({
         borderBottomStartRadius: 10
     },
     cardText: {
-        fontSize: 17,
+        fontSize: 15,
         textAlign: 'center'
     }
 })

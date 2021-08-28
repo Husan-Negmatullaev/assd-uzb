@@ -3,7 +3,6 @@ import { View, Text, TouchableOpacity } from 'react-native'
 import { styles } from './app-header.styles'
 import { FontAwesome, Feather, AntDesign, MaterialCommunityIcons } from '@expo/vector-icons';
 
-
 const AppHeader = ({ backColor }) => {
     console.log(backColor);
     return (

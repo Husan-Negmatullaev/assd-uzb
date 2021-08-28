@@ -6,7 +6,7 @@ const ServiceList = ({item, changeService}) => {
     console.log('Service', item.active);
     return (
         <TouchableOpacity 
-            activeOpacity={0.9}
+            activeOpacity={1}
             onPress={() => changeService(item.id)}
             style={[styles.card, {backgroundColor: item.active ? item.backColor : '#ffffff'}]}
         >
